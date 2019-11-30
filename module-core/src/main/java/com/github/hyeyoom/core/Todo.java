@@ -1,4 +1,4 @@
-package com.github.hyeyoom.todo;
+package com.github.hyeyoom.core;
 
 import java.util.UUID;
 
