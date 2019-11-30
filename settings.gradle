@@ -9,4 +9,5 @@ include 'module-dataprovider-file'
 
 
 include 'module-app:console-app'
+include 'module-usecase'
 
