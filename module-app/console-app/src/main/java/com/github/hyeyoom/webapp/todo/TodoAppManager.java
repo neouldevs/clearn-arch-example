@@ -1,6 +1,6 @@
-package com.github.hyeyoom.app.todo;
+package com.github.hyeyoom.webapp.todo;
 
-import com.github.hyeyoom.app.todo.dto.CreateTodoDto;
+import com.github.hyeyoom.webapp.todo.dto.CreateTodoDto;
 import com.github.hyeyoom.core.Todo;
 import com.github.hyeyoom.data.file.repository.TodoFileRepository;
 import com.github.hyeyoom.usecase.core.UseCaseExecutorImpl;

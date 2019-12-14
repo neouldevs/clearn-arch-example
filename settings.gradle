@@ -5,9 +5,13 @@ rootProject.name = 'clean-todo'
  */
 include 'module-core'
 
+include 'module-usecase'
+
 include 'module-dataprovider-file'
 
-
+/**
+ * Applications
+ */
 include 'module-app:console-app'
-include 'module-usecase'
+include 'module-app:web-app'
 

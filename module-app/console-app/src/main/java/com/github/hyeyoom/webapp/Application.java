@@ -1,6 +1,6 @@
-package com.github.hyeyoom.app;
+package com.github.hyeyoom.webapp;
 
-import com.github.hyeyoom.app.todo.TodoAppManager;
+import com.github.hyeyoom.webapp.todo.TodoAppManager;
 import com.github.hyeyoom.core.Todo;
 
 import java.util.concurrent.CompletionStage;
