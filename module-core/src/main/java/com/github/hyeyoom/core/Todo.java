@@ -19,5 +19,5 @@ public class Todo {
 
     private boolean isDone = false;
 
-    private long createdAt; // timestamp
+    private long createdAt = System.currentTimeMillis(); // timestamp
 }
