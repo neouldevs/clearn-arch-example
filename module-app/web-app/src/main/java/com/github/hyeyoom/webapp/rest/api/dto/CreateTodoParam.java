@@ -1,4 +1,4 @@
-package com.github.hyeyoom.app.todo.dto;
+package com.github.hyeyoom.webapp.rest.api.dto;
 
 import com.github.hyeyoom.core.Todo;
 import lombok.Getter;
@@ -8,14 +8,14 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class CreateTodoDto {
+public class CreateTodoParam {
 
     private String title;
 
     private String content;
 
     public Todo toEntity() {
-        final Todo todo = new Todo();
+        Todo todo = new Todo();
         todo.setTitle(title);
         todo.setContent(content);
         return todo;
